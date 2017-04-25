@@ -1,5 +1,6 @@
 {
   "2012/2013": {
+    "taxyear": "2012/2013",
     "comments": "Original as provided in Coding challenge.",
     "brackets": [
       {
@@ -32,6 +33,7 @@
     ]
   },
   "2015/2016": {
+    "taxyear": "2015/2016",
     "comments": "Pretty much unchanged from earlier years.",
     "brackets": [
       {
@@ -64,6 +66,7 @@
     ]
   },
   "2016/2017": {
+    "taxyear": "2016/2017",
     "comments": "Main changes are the 4th bracket shift to 87k upper bound and the flat rates for brackets 4 and 5.",
     "brackets": [
       {

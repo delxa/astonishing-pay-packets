@@ -23,7 +23,13 @@ export default class ATOPayCalculator {
     this.options = Object.assign({}, options, DEFAULT_OPTIONS) // Check this works appropriately
   }
 
-  // Generate Payslip
+  /**
+   * Generate the Payslip based on Salary, Super Contribution rate and frequency.
+   * @param {int} salary - The Annual Salary in Whole Dollars.
+   * @param {float} superPercent - Super Contribution rate to use.
+   * @param {string} superPercent - The frequency to use, 'monthly', 'weekly' or 'fortnightly'
+   * @returns {Object} An object describing the payslip details.
+   */
   getPayslip (salary, superPercent = 0.09, frequency = FREQUENCY_MONTHLY) {
     // Get values from helpers
     let annualTax = this._getTaxForIncome(salary)
@@ -71,7 +77,7 @@ export default class ATOPayCalculator {
   }
 
   // Get the divider number
-  // I really think there ought to be a more succinct way to write this.
+  // Surely, there ought to be a more succinct way to write this.
   _getFrequencyDivider (frequency) {
     let divider = 0
     switch (frequency) {
