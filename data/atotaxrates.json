@@ -1,0 +1,98 @@
+{
+  "2012/2013": {
+    "comments": "Original as provided in Coding challenge.",
+    "brackets": [
+      {
+        "upper": 18200,
+        "flat": 0
+      },
+      {
+        "lower": 18201,
+        "upper": 37000,
+        "flat": 0,
+        "over": 0.19
+      },
+      {
+        "lower": 37001,
+        "upper": 80000,
+        "flat": 3572,
+        "over": 0.325
+      },
+      {
+        "lower": 80001,
+        "upper": 180000,
+        "flat": 17547,
+        "over": 0.37
+      },
+      {
+        "lower": 180000,
+        "flat": 54547,
+        "over": 0.45
+      }
+    ]
+  },
+  "2015/2016": {
+    "comments": "Pretty much unchanged from earlier years.",
+    "brackets": [
+      {
+        "upper": 18200,
+        "flat": 0
+      },
+      {
+        "lower": 18201,
+        "upper": 37000,
+        "flat": 0,
+        "over": 0.19
+      },
+      {
+        "lower": 37001,
+        "upper": 80000,
+        "flat": 3572,
+        "over": 0.325
+      },
+      {
+        "lower": 80001,
+        "upper": 180000,
+        "flat": 17547,
+        "over": 0.37
+      },
+      {
+        "lower": 180000,
+        "flat": 54547,
+        "over": 0.45
+      }
+    ]
+  },
+  "2016/2017": {
+    "comments": "Main changes are the 4th bracket shift to 87k upper bound and the flat rates for brackets 4 and 5.",
+    "brackets": [
+      {
+        "upper": 18200,
+        "flat": 0
+      },
+      {
+        "lower": 18201,
+        "upper": 37000,
+        "flat": 0,
+        "over": 0.19
+      },
+      {
+        "lower": 37001,
+        "upper": 87000,
+        "flat": 3572,
+        "over": 0.325
+      },
+      {
+        "lower": 87001,
+        "upper": 180000,
+        "flat": 19822,
+        "over": 0.37
+      },
+      {
+        "lower": 180000,
+        "flat": 54232,
+        "over": 0.45
+      }
+    ]
+  }
+}
