@@ -2,7 +2,7 @@
 
 ## Getting started
 
-**Note:* This app uses SQLite for persisting Payslips. If you are on Mac, you should have it installed. Otherwise, view the [downloads page](https://www.sqlite.org/download.html)
+**Note:** This app uses SQLite for persisting Payslips. If you are on Mac, you should have it installed. Otherwise, view the [downloads page](https://www.sqlite.org/download.html)
 
 1. `git clone https://github.com/delxa/astonishing-pay-packets.git` to clone the repo
 2. `npm install` to grab all the dependencies
