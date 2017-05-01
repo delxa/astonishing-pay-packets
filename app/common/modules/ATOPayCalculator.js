@@ -67,9 +67,7 @@ export default class ATOPayCalculator {
     // Work out the tax payable
     let flatrate = bracket.flat || 0
 
-    if (!bracket.over) {
-      return flatrate
-    }
+    if (!bracket.over) return flatrate
 
     let lower = (bracket.lower && bracket.lower > 0) ? bracket.lower - 1 : 0
 
